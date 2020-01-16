@@ -6,7 +6,7 @@ node_js:
 before_script:
   - export CHRLOME_BIN=/usr/bin/google-chrome
   - sudo apt-get update
-  - sudo apt-get install -y libappindicatorl fonts-liberation
+  - sudo apt-get install -y libappindicator1 fonts-liberation
   - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.dab
   - sudo dpkg -i google-chrome*.deb
   - export DIKSPLAY=:99.0
